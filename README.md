@@ -1,15 +1,15 @@
-# ARPA-H
- The repo contains codes and steps for running external tracking systems for Imaging Modalities Registration (CT/MR and Ultrasound).
+# Running A Quick Demo for ARPA-H Visit
+ The repo contains codes and steps for running external tracking systems to Register Endoscope and Instrument with CT/Phantom. 
+
+ The Endoscope is tracked by Polaris Vega XT (PO_to_EN) using Transformations: PO_to_BF, BF_to_EN,
+
+ The PIN and Instrument is tracked by Aurora (FG_to_PI) using Transformations: FG_to_EM, EM_to_PI,
+
+ The Phantom/CT is tracked by both Polaris and Aurora by placing Probe on Markers (PO_to_CT, FG_to_CT),
+
+ Then, Endoscope and Pin poses are expressed in {CT}: CT_to_EN, CT_to_PI.
 
 # Things DO NOT have yet
-1. Phantom from Sam Streeter
+1. {EM} to {PIN}
 
-2. The CT scan of the Phantom (need segmentation and .stl model generation)
-
-3. Marker Positions on both Phantom and its .stl
-
-4. Calibration Plate's .ROM file
-
-5. Butterfly Plate's .ROM file
-
-6. Transformation between Endoscope Coord System and Butterfly Plate Coord System
+2. PIN .stl file.
