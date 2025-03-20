@@ -10,6 +10,6 @@
  Then, Endoscope and Pin poses are expressed in {CT}: CT_to_EN, CT_to_PI.
 
 # Things DO NOT have yet
-1. {EM} to {PIN}
+1. {EM} to {PIN}, in NDI ToolBox, use Pivot and Spin.
 
 2. PIN .stl file.
