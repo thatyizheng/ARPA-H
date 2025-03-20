@@ -1,6 +1,8 @@
 # ARPA-H
  The repo contains codes and steps for running external tracking systems for Imaging Modalities Registration (CT/MR and Ultrasound).
+ 
  The final output will be Ultrasound and CT/Phantom in Endoscope Coordinate System, i.e EN_to_US and EN_to_CT.
+ 
  The transformations will be sent to Jake's stereo overlay program.
 
 # Things DO NOT have yet
