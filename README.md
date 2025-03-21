@@ -1,5 +1,5 @@
 # Running A Quick Demo for ARPA-H Visit
- The repo contains codes and steps for running external tracking systems to Register Endoscope and Instrument with CT/Phantom. 
+ The BRANCH contains codes and steps for running external tracking systems to Register Endoscope and Instrument with CT/Phantom. 
 
  The Endoscope is tracked by Polaris Vega XT (PO_to_EN) using Transformations: PO_to_BF, BF_to_EN,
 
